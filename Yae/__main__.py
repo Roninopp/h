@@ -167,13 +167,13 @@ def start(update: Update, context: CallbackContext):
             text="➕️ Add Mᴇ Tᴏ Yᴏur Chᴀᴛ Grᴏuᴩ ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Kᴀizuryu", url=f"https://t.me/TheKaizuryu"),
+        InlineKeyboardButton(text="support", url=f"https://t.me/Chatting_Group_xyz"),
         InlineKeyboardButton(
-            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/Anime_Chat_XKaizuryu"
+            text="channel", url=f"https://t.me/Chatting_Group_xyz"
         ),
     ],
     [
-        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/xelcius"),
+        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/BackupBoss"),
         InlineKeyboardButton(
             text="Yᴀᴇ Infᴏ", callback_data="Yae_"
         ),
@@ -240,8 +240,8 @@ def Yae_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="https://t.me/Anime_Chat_XKaizuryu"),
-                     InlineKeyboardButton(text="News", url="https://t.me/TheKaizuryu")
+                     InlineKeyboardButton(text="Support", url="https://t.me/Chatting_Group_xyz"),
+                     InlineKeyboardButton(text="News", url="https://t.me/Chatting_Group_xyz")
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="Yae_back")
@@ -259,13 +259,13 @@ def Yae_about_callback(update: Update, context: CallbackContext):
             text="➕️ Add Mᴇ Tᴏ Yᴏur Chᴀᴛ Grᴏuᴩ ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Kᴀizuryu", url=f"https://t.me/TheKaizuryu"),
+        InlineKeyboardButton(text="Kᴀizuryu", url=f"https://t.me/BackupBoss"),
         InlineKeyboardButton(
-            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/Anime_Chat_XKaizuryu"
+            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/Chatting_Group_xyz"
         ),
     ],
     [
-        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/xelcius"),
+        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/BackupBoss"),
         InlineKeyboardButton(
             text="Yᴀᴇ Infᴏ", callback_data="Yae_"
         ),
